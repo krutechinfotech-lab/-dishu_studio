@@ -8,25 +8,6 @@ const fadeUp = {
   transition: { duration: 0.7 },
 };
 
-const packages = [
-  {
-    name: "Mini",
-    price: "\u20B95,000",
-    features: ["1 Hour Session", "20 Edited Photos", "1 Outfit Change", "Online Gallery", "Basic Props"],
-  },
-  {
-    name: "Classic",
-    price: "\u20B910,000",
-    popular: true,
-    features: ["2 Hours Session", "50 Edited Photos", "3 Outfit Changes", "Premium Props", "Online Gallery", "5 Printed Photos"],
-  },
-  {
-    name: "Premium",
-    price: "\u20B920,000",
-    features: ["3 Hours Session", "100 Edited Photos", "Unlimited Outfits", "Custom Props & Themes", "Luxury Photo Album", "All Digital Files", "Family Portraits"],
-  },
-];
-
 const sampleGallery = [
   "https://images.unsplash.com/photo-1761891928740-840ed75169e4?w=500&q=80",
   "https://images.unsplash.com/photo-1761891950459-bc48f5bf026d?w=500&q=80",

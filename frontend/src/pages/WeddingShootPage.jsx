@@ -8,25 +8,6 @@ const fadeUp = {
   transition: { duration: 0.7 },
 };
 
-const packages = [
-  {
-    name: "Classic",
-    price: "\u20B925,000",
-    features: ["4 Hours Coverage", "200 Edited Photos", "1 Photographer", "Online Gallery", "Basic Retouching"],
-  },
-  {
-    name: "Premium",
-    price: "\u20B950,000",
-    popular: true,
-    features: ["8 Hours Coverage", "500 Edited Photos", "2 Photographers", "Premium Photo Album", "Advanced Retouching", "Pre-Wedding Consult"],
-  },
-  {
-    name: "Royal",
-    price: "\u20B91,00,000",
-    features: ["Full Day Coverage", "Unlimited Photos", "3 Photographers", "Luxury Photo Album", "Cinematic Highlights", "Drone Coverage", "Same-Day Edit"],
-  },
-];
-
 const sampleGallery = [
   "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png",
   "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg",
