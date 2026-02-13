@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Check } from "lucide-react";
 import BookingForm from "@/components/BookingForm";
 
 const fadeUp = {
