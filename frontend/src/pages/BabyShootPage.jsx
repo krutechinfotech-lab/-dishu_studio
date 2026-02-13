@@ -69,45 +69,6 @@ export default function BabyShootPage() {
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="py-24 md:py-32 bg-[#FAFAFA]" data-testid="baby-pricing">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div {...fadeUp} className="text-center mb-16">
-            <p className="uppercase tracking-[0.2em] text-xs text-[#999] mb-4">Pricing</p>
-            <h2 className="font-heading text-3xl sm:text-4xl text-[#1A1A1A]">Choose Your Package</h2>
-          </motion.div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {packages.map((pkg, i) => (
-              <motion.div
-                key={pkg.name}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className={`relative bg-white p-10 text-center ${pkg.popular ? "ring-2 ring-[#D4AF37]" : "border border-[#EFEFEF]"}`}
-                data-testid={`baby-package-${i}`}
-              >
-                {pkg.popular && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-white text-[10px] uppercase tracking-widest px-4 py-1">
-                    Most Popular
-                  </span>
-                )}
-                <h3 className="font-heading text-xl text-[#1A1A1A] mb-2">{pkg.name}</h3>
-                <p className="font-heading text-3xl text-[#D4AF37] mb-8">{pkg.price}</p>
-                <ul className="space-y-3 text-left">
-                  {pkg.features.map((f) => (
-                    <li key={f} className="flex items-center gap-3 text-sm text-[#555]">
-                      <Check className="h-4 w-4 text-[#D4AF37] shrink-0" strokeWidth={1.5} />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Sample Gallery */}
       <section className="py-24 md:py-32 bg-white" data-testid="baby-gallery">
         <div className="max-w-7xl mx-auto px-6">
