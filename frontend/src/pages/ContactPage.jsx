@@ -16,7 +16,7 @@ const fadeUp = {
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "B-12 Gopinath Complex, Lajamani Chowk, Mota Varachha, Surat, Gujarat" },
-  { icon: Phone, label: "Phone", value: "+91 98765 43210" },
+  { icon: Phone, label: "Phone", value: "+91 97238 61620" },
   { icon: Mail, label: "Email", value: "dishuvekariya5@gmail.com" },
   { icon: Clock, label: "Hours", value: "Mon - Sat: 10:00 AM - 7:00 PM" },
 ];

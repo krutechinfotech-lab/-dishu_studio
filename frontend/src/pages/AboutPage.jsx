@@ -10,9 +10,9 @@ const fadeUp = {
 
 const stats = [
   { value: "500+", label: "Events Captured" },
-  { value: "8+", label: "Years Experience" },
-  { value: "1000+", label: "Happy Clients" },
-  { value: "50K+", label: "Photos Delivered" },
+  { value: "16+", label: "Years Experience" },
+  { value: "500+", label: "Happy Clients" },
+  { value: "10K+", label: "Photos Delivered" },
 ];
 
 export default function AboutPage() {

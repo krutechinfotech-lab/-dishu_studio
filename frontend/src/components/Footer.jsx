@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-16 pt-8 text-center text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Dishu Studio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} krutech infotech All rights reserved.</p>
         </div>
       </div>
     </footer>
