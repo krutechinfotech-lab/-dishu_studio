@@ -1,0 +1,138 @@
+{
+  "project_name": "Dishu Studio",
+  "design_philosophy": {
+    "theme": "light",
+    "mood": "Ethereal, Timeless, Romantic, High-End",
+    "core_concept": "Digital Art Gallery",
+    "description": "A minimal luxury site that feels like a bridal magazine. Generous whitespace, elegant serif typography, and gold accents. No clutter."
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Playfair Display, serif",
+      "weights": ["400", "600"],
+      "tracking": "tight",
+      "usage": "All section titles, hero headings, and card titles."
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["300", "400", "500"],
+      "usage": "Paragraphs, navigation, buttons, form labels."
+    },
+    "labels": {
+      "font_family": "Manrope, sans-serif",
+      "case": "uppercase",
+      "tracking": "widest (0.2em)",
+      "size": "text-xs or text-sm",
+      "usage": "Overlines, dates, categories."
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#FAFAFA",
+      "tertiary": "#F5F5F0"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#555555",
+      "muted": "#999999"
+    },
+    "accent": {
+      "primary": "#D4AF37",
+      "secondary": "#E5D3B3",
+      "hover": "#C5A028"
+    },
+    "border": {
+      "subtle": "#EFEFEF",
+      "strong": "#D4AF37"
+    }
+  },
+  "layout_strategies": {
+    "spacing": "Use p-24 or p-32 for section padding. Never use p-4 or p-8 for main sections.",
+    "container": "max-w-7xl mx-auto px-6",
+    "grid_system": "Use the 'Tetris' grid for galleries. Mix 1x1, 1x2, and 2x2 aspect ratios.",
+    "alignment": "Center-align hero text for grandeur, but Left-align body content for readability."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#1A1A1A] text-white hover:bg-[#333333] rounded-none px-8 py-6 uppercase tracking-widest text-xs transition-all duration-300",
+      "secondary": "bg-transparent border border-[#1A1A1A] text-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white rounded-none px-8 py-6 uppercase tracking-widest text-xs transition-all duration-300",
+      "ghost": "text-[#1A1A1A] hover:text-[#D4AF37] underline-offset-4 hover:underline"
+    },
+    "cards": {
+      "style": "flat",
+      "border": "none",
+      "shadow": "none",
+      "hover": "zoom-in effect on image, text color shift"
+    },
+    "forms": {
+      "style": "minimal",
+      "input": "border-b border-gray-300 focus:border-[#D4AF37] rounded-none bg-transparent px-0 py-4 placeholder:text-gray-400 focus:ring-0",
+      "label": "uppercase tracking-widest text-xs text-gray-500 mb-2"
+    }
+  },
+  "visual_enhancers": {
+    "parallax": "Soft parallax on hero images",
+    "micro_interactions": "Images scale up 1.05x on hover. Links have a sliding underline.",
+    "textures": "Subtle noise texture overlay on the background (opacity 0.03)",
+    "glassmorphism": "Used only on the sticky nav: bg-white/80 backdrop-blur-md border-b border-white/20"
+  },
+  "image_assets": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1665960213508-48f07086d49c",
+      "alt": "Grand Indian Wedding Couple Traditional",
+      "position": "center"
+    },
+    "services": {
+      "wedding": {
+        "url": "https://images.unsplash.com/photo-1722952934661-dde241aeb591",
+        "alt": "Elegant Wedding Couple"
+      },
+      "baby": {
+        "url": "https://images.unsplash.com/photo-1603298624547-e38905ce21d7",
+        "alt": "Cute Baby Portrait"
+      }
+    },
+    "gallery_preview": [
+      {
+        "url": "https://images.unsplash.com/photo-1656751681056-a4ebfe7c546e",
+        "alt": "Wedding Rings Detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1610173826014-d131b02d69ca",
+        "alt": "Indian Bride Portrait"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1745173038890-16205011df4e",
+        "alt": "Newborn Baby Feet"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1630526720753-aa4e71acf67d",
+        "alt": "Pre-wedding Shoot"
+      }
+    ],
+    "about": {
+      "url": "https://images.unsplash.com/photo-1554086190-db10cbdb4316",
+      "alt": "Photographer with Camera"
+    },
+    "testimonials": {
+      "url": "https://images.unsplash.com/photo-1756376748050-779fc5e517b4",
+      "alt": "Happy Client Couple"
+    }
+  },
+  "tech_stack_instructions": {
+    "frontend": "React (use .jsx), Tailwind CSS, Shadcn UI",
+    "backend": "FastAPI (Python)",
+    "icons": "Lucide React (already installed). Use thin strokes (stroke-width={1.5}) for elegance.",
+    "fonts": "Import Playfair Display and Manrope from Google Fonts in index.css",
+    "animations": "Framer Motion for page transitions and scroll reveals."
+  },
+  "universal_guidelines": [
+    "Do NOT use standard Shadcn cards. Build custom layouts using pure HTML/Tailwind for the marketing pages.",
+    "Do NOT use gradients. Use solid colors or subtle textures.",
+    "Do NOT center everything. Use asymmetry to create interest.",
+    "Ensure all images have 'object-cover' and proper aspect ratios.",
+    "Use 'lenis' for smooth scrolling if possible, or just CSS 'scroll-behavior: smooth'.",
+    "Add 'data-testid' to all interactive elements."
+  ]
+}
