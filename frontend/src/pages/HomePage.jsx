@@ -20,7 +20,7 @@ const galleryPreview = [
   { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png", alt: "Bride Portrait" },
   { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/axf9iqfx_img7.JPG", alt: "Pre-Wedding Couple" },
   { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg", alt: "Maternity Shoot" },
-  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/j8evmbuk_058A9364.jpg", alt: "Wedding Photography" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/sy2983wh_058A9781.JPG", alt: "Bridal Mehndi Details" },
 ];
 
 export default function HomePage() {
@@ -29,7 +29,16 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden" data-testid="hero-section">
         <div className="absolute inset-0">
-          <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg" alt="Dishu Studio Wedding Photography" className="w-full h-full object-cover" />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+            poster="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg"
+          >
+            <source src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ack6h4zd_02%20HIGHLIGHT%20%282%29.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-black/30" />
         </div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl">

@@ -32,9 +32,9 @@ const sampleGallery = [
   "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png",
   "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg",
   "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/axf9iqfx_img7.JPG",
-  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/j8evmbuk_058A9364.jpg",
-  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg",
-  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/sy2983wh_058A9781.JPG",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/bw82yu0a_Couple%20Pose%203%20-%20Facing%20Camera%20Romantic%20Pose.png",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/id4bks1w_Couple_Pose_2.png",
 ];
 
 export default function WeddingShootPage() {
@@ -43,7 +43,9 @@ export default function WeddingShootPage() {
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden" data-testid="wedding-hero">
         <div className="absolute inset-0">
-          <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg" alt="Dishu Studio Wedding Photography" className="w-full h-full object-cover" />
+          <video autoPlay muted loop playsInline className="w-full h-full object-cover" poster="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg">
+            <source src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ack6h4zd_02%20HIGHLIGHT%20%282%29.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="relative z-10 text-center text-white px-6">

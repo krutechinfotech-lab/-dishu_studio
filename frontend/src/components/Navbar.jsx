@@ -46,10 +46,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
         <Link
           to="/"
-          className={`font-heading text-2xl tracking-tight transition-colors duration-300 ${textColor}`}
+          className="transition-opacity duration-300 hover:opacity-80"
           data-testid="nav-logo"
         >
-          Dishu Studio
+          <img
+            src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/7bmeu14v_image.png"
+            alt="Dishu Studio"
+            className="h-14 w-auto"
+          />
         </Link>
 
         <div className="hidden md:flex items-center gap-10">

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-2xl mb-4">Dishu Studio</h3>
+            <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/7bmeu14v_image.png" alt="Dishu Studio" className="h-16 w-auto mb-4" />
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Capturing timeless moments with elegance and artistry.
               Professional photography for weddings and babies.
