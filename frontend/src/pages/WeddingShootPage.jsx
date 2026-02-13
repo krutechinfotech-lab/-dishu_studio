@@ -29,12 +29,12 @@ const packages = [
 ];
 
 const sampleGallery = [
-  "https://images.unsplash.com/photo-1762068863353-50744fd8dbe1?w=500&q=80",
-  "https://images.unsplash.com/photo-1698419193331-5b2fb90a6304?w=500&q=80",
-  "https://images.unsplash.com/photo-1760613129745-418b15f91d56?w=500&q=80",
-  "https://images.unsplash.com/photo-1670291362999-00f36b631e15?w=500&q=80",
-  "https://images.unsplash.com/photo-1610173826014-d131b02d69ca?w=500&q=80",
-  "https://images.unsplash.com/photo-1722952934661-dde241aeb591?w=500&q=80",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/axf9iqfx_img7.JPG",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/j8evmbuk_058A9364.jpg",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg",
+  "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg",
 ];
 
 export default function WeddingShootPage() {
@@ -43,7 +43,7 @@ export default function WeddingShootPage() {
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden" data-testid="wedding-hero">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1665960213508-48f07086d49c?w=1600&q=80" alt="Wedding Photography" className="w-full h-full object-cover" />
+          <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg" alt="Dishu Studio Wedding Photography" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="relative z-10 text-center text-white px-6">

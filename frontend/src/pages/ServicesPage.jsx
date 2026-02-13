@@ -13,13 +13,13 @@ const services = [
   {
     title: "Wedding Shoot",
     description: "From engagement to reception, we capture every precious moment of your wedding journey with artistry and elegance.",
-    image: "https://images.unsplash.com/photo-1722952934661-dde241aeb591?w=800&q=80",
+    image: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png",
     link: "/services/wedding",
   },
   {
     title: "Baby Shoot",
     description: "Adorable, heartwarming baby photography that preserves the tiny details and precious milestones of your little one.",
-    image: "https://images.unsplash.com/photo-1603298624547-e38905ce21d7?w=800&q=80",
+    image: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg",
     link: "/services/baby",
   },
 ];

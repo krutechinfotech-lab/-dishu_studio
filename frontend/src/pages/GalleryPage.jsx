@@ -7,18 +7,16 @@ import { X } from "lucide-react";
 const categories = ["all", "wedding", "baby"];
 
 const galleryImages = [
-  { url: "https://images.unsplash.com/photo-1762068863353-50744fd8dbe1?w=600&q=80", alt: "Bride in cream and gold sari", category: "wedding" },
-  { url: "https://images.unsplash.com/photo-1698419193331-5b2fb90a6304?w=600&q=80", alt: "Traditional wedding couple", category: "wedding" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png", alt: "Beautiful Bride Portrait", category: "wedding" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg", alt: "Pre-Wedding Couple Shoot", category: "wedding" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg", alt: "Maternity Photography", category: "baby" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/axf9iqfx_img7.JPG", alt: "Couple Moments", category: "wedding" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/j8evmbuk_058A9364.jpg", alt: "Wedding Photography", category: "wedding" },
   { url: "https://images.unsplash.com/photo-1761891928740-840ed75169e4?w=600&q=80", alt: "Newborn with teddy bear", category: "baby" },
-  { url: "https://images.unsplash.com/photo-1760613129745-418b15f91d56?w=600&q=80", alt: "Bride in red wedding dress", category: "wedding" },
-  { url: "https://images.unsplash.com/photo-1761891950459-bc48f5bf026d?w=600&q=80", alt: "Baby sleeping in bucket", category: "baby" },
-  { url: "https://images.unsplash.com/photo-1722952934661-dde241aeb591?w=600&q=80", alt: "Elegant wedding couple", category: "wedding" },
   { url: "https://images.unsplash.com/photo-1761891951458-4bb2d9bd118a?w=600&q=80", alt: "Newborn with flowers", category: "baby" },
-  { url: "https://images.unsplash.com/photo-1670291362999-00f36b631e15?w=600&q=80", alt: "Wedding couple portrait", category: "wedding" },
+  { url: "https://images.unsplash.com/photo-1761891950459-bc48f5bf026d?w=600&q=80", alt: "Baby sleeping in bucket", category: "baby" },
   { url: "https://images.unsplash.com/photo-1761891950106-3276efeef9d1?w=600&q=80", alt: "Baby in yellow outfit", category: "baby" },
-  { url: "https://images.unsplash.com/photo-1610173826014-d131b02d69ca?w=600&q=80", alt: "Indian bride portrait", category: "wedding" },
   { url: "https://images.unsplash.com/photo-1603298624547-e38905ce21d7?w=600&q=80", alt: "Cute baby portrait", category: "baby" },
-  { url: "https://images.unsplash.com/photo-1665960213508-48f07086d49c?w=600&q=80", alt: "Grand wedding ceremony", category: "wedding" },
 ];
 
 export default function GalleryPage() {

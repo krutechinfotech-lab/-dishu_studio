@@ -17,10 +17,10 @@ const testimonials = [
 ];
 
 const galleryPreview = [
-  { url: "https://images.unsplash.com/photo-1762068863353-50744fd8dbe1?w=600&q=80", alt: "Bride Portrait" },
-  { url: "https://images.unsplash.com/photo-1610173826014-d131b02d69ca?w=600&q=80", alt: "Indian Bride" },
-  { url: "https://images.unsplash.com/photo-1761891951458-4bb2d9bd118a?w=600&q=80", alt: "Baby with Flowers" },
-  { url: "https://images.unsplash.com/photo-1630526720753-aa4e71acf67d?w=600&q=80", alt: "Pre-Wedding" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png", alt: "Bride Portrait" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/axf9iqfx_img7.JPG", alt: "Pre-Wedding Couple" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg", alt: "Maternity Shoot" },
+  { url: "https://customer-assets.emergentagent.com/job_photo-studios/artifacts/j8evmbuk_058A9364.jpg", alt: "Wedding Photography" },
 ];
 
 export default function HomePage() {
@@ -29,7 +29,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden" data-testid="hero-section">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1665960213508-48f07086d49c?w=1600&q=80" alt="Wedding Photography" className="w-full h-full object-cover" />
+          <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/lbxld6wt_TUL_2526.jpg" alt="Dishu Studio Wedding Photography" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/30" />
         </div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl">
@@ -60,7 +60,7 @@ export default function HomePage() {
             <motion.div {...fadeUp} className="group">
               <Link to="/services/wedding" data-testid="home-service-wedding">
                 <div className="relative overflow-hidden aspect-[4/5]">
-                  <img src="https://images.unsplash.com/photo-1722952934661-dde241aeb591?w=800&q=80" alt="Wedding Photography" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/ml1hc7wi_jhdcnd.png" alt="Dishu Studio Wedding Photography" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
                   <div className="absolute bottom-0 left-0 right-0 p-8">
                     <p className="uppercase tracking-[0.2em] text-xs text-white/80 mb-2">Photography</p>
@@ -72,7 +72,7 @@ export default function HomePage() {
             <motion.div {...fadeUp} className="group" transition={{ duration: 0.7, delay: 0.15 }}>
               <Link to="/services/baby" data-testid="home-service-baby">
                 <div className="relative overflow-hidden aspect-[4/5]">
-                  <img src="https://images.unsplash.com/photo-1603298624547-e38905ce21d7?w=800&q=80" alt="Baby Photography" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg" alt="Dishu Studio Baby Photography" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors duration-300" />
                   <div className="absolute bottom-0 left-0 right-0 p-8">
                     <p className="uppercase tracking-[0.2em] text-xs text-white/80 mb-2">Photography</p>

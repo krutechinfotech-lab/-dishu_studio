@@ -43,7 +43,7 @@ export default function BabyShootPage() {
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden" data-testid="baby-hero">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1603298624547-e38905ce21d7?w=1600&q=80" alt="Baby Photography" className="w-full h-full object-cover" />
+          <img src="https://customer-assets.emergentagent.com/job_photo-studios/artifacts/xyw2czky_TUL_9695.jpg" alt="Dishu Studio Baby Photography" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="relative z-10 text-center text-white px-6">
