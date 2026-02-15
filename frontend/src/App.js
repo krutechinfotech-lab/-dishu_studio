@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { Toaster } from "sonner";
-import { useEffect } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import IntroScreen from "@/components/IntroScreen";
 import HomePage from "@/pages/HomePage";
 import AboutPage from "@/pages/AboutPage";
 import GalleryPage from "@/pages/GalleryPage";
@@ -44,8 +45,18 @@ function AppLayout() {
 }
 
 function App() {
+  const [showIntro, setShowIntro] = useState(() => {
+    return !sessionStorage.getItem("dishu_intro_seen");
+  });
+
+  const handleIntroComplete = useCallback(() => {
+    sessionStorage.setItem("dishu_intro_seen", "true");
+    setShowIntro(false);
+  }, []);
+
   return (
     <BrowserRouter>
+      {showIntro && <IntroScreen onComplete={handleIntroComplete} />}
       <ScrollToTop />
       <AppLayout />
       <Toaster position="top-center" richColors />
